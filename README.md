@@ -1,1 +1,1 @@
-# booki Responsive one page design
+# booki - Responsive one page design
