@@ -1,1 +1,1 @@
-# booki-starter-pack
+# booki Responsive one page design
