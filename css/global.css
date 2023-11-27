@@ -1,0 +1,59 @@
+/******General******/
+
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+:root {
+  --main-color: #0065fc;
+  --main-bg-color: #f2f2f2;
+  --filter-bg-color: #deebff;
+  --sec-bg-color: #d9d9d9;
+  --day-mode-color: #ffffff;
+}
+
+.fa-solid {
+  color: var(--main-color);
+}
+
+.main-container {
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+h1 {
+  margin-bottom: -10px;
+}
+
+p {
+  font-size: 18px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (max-width: 767.98px) {
+  .main-container {
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    margin-bottom: -5px;
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}

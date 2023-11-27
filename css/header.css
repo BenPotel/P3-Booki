@@ -1,0 +1,46 @@
+/****** Header ******/
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0px;
+}
+
+.logo img {
+  max-width: 62px;
+}
+.menu a {
+  padding: 30px 30px;
+}
+.menu a:hover {
+  border-top: solid var(--main-color);
+  color: var(--main-color);
+}
+
+@media (max-width: 767.98px) {
+  header {
+    flex-direction: column;
+  }
+
+  .logo {
+    padding-bottom: 10px;
+  }
+
+  .menu {
+    width: 100%;
+    display: flex;
+  }
+
+  .menu a {
+    flex: 1;
+    text-align: center;
+    border-bottom: solid var(--sec-bg-color) 3px;
+  }
+
+  .menu a:hover {
+    border-bottom: solid var(--main-color);
+    border-top: none;
+  }
+}

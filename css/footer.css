@@ -1,0 +1,25 @@
+/******Footer******/
+
+.page-footer {
+  background-color: var(--main-bg-color);
+  display: flex;
+  padding: 20px 40px;
+}
+
+.page-footer .footer-col {
+  flex: 1;
+  margin: 0 10px 0 0;
+}
+
+.page-footer p {
+  font-size: 14px;
+}
+
+@media (max-width: 767.98px) {
+  .page-footer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0 10px;
+    align-items: flex-start;
+  }
+}
